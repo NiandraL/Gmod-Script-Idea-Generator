@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang = "en-GB">
+	<head> 
+		<title>Garry's Mod idea generator</title>
+		
+		<link rel = "stylesheet"
+			type = "text/css"
+			href = "gmod_css.css"
+		</link>
+		
+		<script src="gmod_outcome.js"></script>
+		<script src="gmod_anims.js"></script>
+	</head>
+	
+	<body>		
+
+	<img src = "images/gmod_hills1.png" id = "gmod_hills1"></img>
+	<img src = "images/gmod_hills2.png" id = "gmod_hills2"></img>
+	
+	<img src = "images/dice-six-faces-one.png" id = "gmod_dice_1"></img>
+	<img src = "images/dice-six-faces-six.png" id = "gmod_dice_2"></img>
+	
+	<div id = "gmod_background_grass"></div> 
+
+	<button id = "gmod_generate_button"
+		style = "color:white"
+		onmouseover = "Gmod_ButtonHoverDesign()"
+		onmouseout = "Gmod_ButtonExitDesign()"
+		onclick = "Gmod_RunGenerateFunctions()"
+		type = "button">
+		Generate Idea
+	</button>	
+	
+	<!--
+	<img src = "images/gmod_cloud1.png" id = "gmod_cloud_80"></img>
+	<img src = "images/gmod_cloud2.png" id = "gmod_cloud_50"></img>
+	<img src = "images/gmod_cloud3.png" id = "gmod_cloud_100"></img>
+	-->
+	
+	<p id = "gmod_output">
+	</p>
+	
+	<p id = "gmod_text_steam">
+		Github
+	</p>	
+
+	</body>
+</html>
