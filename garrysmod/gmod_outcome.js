@@ -31,7 +31,6 @@ var Gmod_OutcomeArray_Keyword1 = [
 	"Golf",
 	"Guitar",
 	"Helicopters",
-	"House'",
 	"Island",
 	"Ice",
 	"Jump-rope",
@@ -48,8 +47,7 @@ var Gmod_OutcomeArray_Keyword1 = [
 	"Robots",
 	"Sailing",
 	"Sea",
-	"Snow",
-	"Jigsaws"
+	"Snow"
 
 ];
 	
